@@ -15,7 +15,6 @@ int main()
     fptr = fopen("/home/dell/Desktop/Employeedata.txt", "a");
     for (int i = 0; i < 5; i++)
     {
-        
         fflush(stdin);
         printf("enter name:\n");
         gets(emp[i].name);
